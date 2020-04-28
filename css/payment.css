@@ -1,0 +1,399 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+
+
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.card-question{
+    position:relative;
+    display:inline-block;
+}
+
+
+
+
+/* colorbar */
+.colorbar{
+    display: flex;
+    width: 1024px;
+    height: 15px;
+    justify-content: space-between;
+}
+.colorbar-gray{
+    height: 15px;
+    width: 140px;
+    background-color: #B3ABA6;
+    top: 0;
+    margin: auto;
+
+}
+.colorbar-yellow{
+    height: 15px;
+    width: 220px;
+    background-color:#FF8F14;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.colorbar-Dblue{
+    height: 15px;
+    width: 95px;
+    background-color:#173060;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    left: 360px;
+}
+.colorbar-pink{
+    height: 15px;
+    width: 230px;
+    background-color:#F65453;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    left:455px;
+}
+
+.colorbar-red{
+    height: 15px;
+    width: 190px;
+    background-color:#CC251B;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    left:685px
+}
+.colorbar-blue{
+    height: 15px;
+    width: 150px;
+    background-color:#62A1D2;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    left:834px
+}
+
+/* header */
+.wrap{
+    width: 1024px;
+    margin: 0px auto;
+}
+
+
+/* 訂購資訊 */
+h1{
+    font-family: "Noto Sans TC",Bold;
+    font-size: 30px;
+    color:#173060;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+/* 訂購步驟 */
+.bar{
+    width: 664px;
+    display: flex;
+    margin-left: 170px;
+   margin-top: 20px;
+}
+.line-1{
+    width: 666px;
+    border-top: solid #62A1D2 4px;
+    margin-top: 4px;
+}
+
+.line{
+    width: 666px;
+    border-top: solid #B3ABA6 4px;
+    margin-top: 4px;
+
+}
+.dot{
+    width: 30px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #62A1D2;  
+}
+
+.dot-3{
+    width: 30px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #B3ABA6;  
+}
+.payment-choose {
+    display: flex;
+    /* width:200px; */
+    /* justify-content: space-between; */
+    font-size:14px ;    
+     color:#B3ABA6;
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.payment-choose h3{
+    width: 280px;
+    margin-left:135px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.step1{
+    color: #62A1D2;
+}
+
+.letter{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* content */
+
+/* h2{
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 30px;
+    color: #62A1D2;
+    font-family: 'Noto Sans TC', sans-serif;
+} */
+
+.h2-one{
+    font-size:22px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #62A1D2;
+    margin-left: 60px;
+    margin-top: 54px;
+}
+.choose{
+    width: 930px;
+    font-size: 16px;
+    color: #62A1D2;
+    margin: 5px 20px 20px 50px;
+    display: flex;
+}
+
+.paymentmethod{
+    border-radius: 10px;
+    border: 2px solid #62A1D2;
+    width: 286px;
+    height: 110px;
+    text-align: center;
+    margin: 15px;
+    padding-top: 28px;
+}
+
+.credit-inf{
+    width: 1024px;
+    height: 768px;
+    background-color: rgba(180, 172, 167, 0.2);
+    padding-top: 25px;
+}
+.amounts-payable{
+    display: flex;
+    width: 610px;
+    height: 95px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 0px auto;
+    
+
+}
+.number{
+    display: flex;  
+    align-items: center;
+    padding-top: 15px;
+    
+}
+.money{
+    width: 76px;
+    height: 20px;
+    font-size: 14px;
+    font-style: #505050;
+    margin-left: 26px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.amount{
+    width: 95px;
+    height: 45px;
+    font-size: 30px;
+    color: #62A1D2;
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+ul.icon{
+    display: flex;
+    align-items: center;
+    margin: top;
+    margin-top: 25px;
+    margin-left: 88px;
+    font-size: 14px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+/*信用卡填寫處*/
+.credit-type{
+    flex-wrap: wrap;
+    width: 610px;
+    /* height: 600px; */
+    background-color:   #FFFFFF;
+    border-radius: 10px;
+    margin: 0px auto;
+    margin-top: 10px;
+
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    width: 550px;
+    height: 60px;
+    margin: 0px auto;
+    border-bottom: 1px solid #B3ABA6;
+    padding-bottom: 15px;
+    padding-top: 15px;
+ 
+}
+
+h4{
+    width: 118px;
+    margin-right: 14px;
+    padding-top: 25px;
+    color: #505050;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+input{
+    width: 280px;
+    height: 50px;
+    border: 1px solid #B3ABA6;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.question-mark{    
+    width: 30px;
+    height: 30px;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+
+
+/*attention*/
+
+.attention{
+    width: 561px;
+    margin: 6px 26px;
+}
+.attention-title{
+    font-size: 14px;
+    color: #B3ABA6;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.detail{
+    margin-top: 5px;
+    font-size: 12px;
+    list-style: disc;
+    margin-left: 26px;
+    line-height: 18px;
+    color: #B3ABA6;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+/*buttom*/
+.buttom{
+    display: flex;
+    width: 395px;
+    margin: 36px 108px;x
+}
+.back{
+    width: 180px;
+    height: 50px;
+    border: solid #62A1D2;
+    background-color:#62A1D2 ;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 30px;
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-bottom: 20px;
+}
+
+.submit{
+    width: 180px;
+    height: 50px;
+    border: solid #FF8F14;
+    background-color:#FF8F14 ;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;    
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.submit-buttom{
+    padding-top: 15px;
+    color: white;
+}
+
+
+/* footer */
+.footer{
+    width: 1024px;
+    height: 50px;
+    background-color: #173060;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 12px;
+    color:#B3ABA6;
+    padding-top: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
