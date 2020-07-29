@@ -1,0 +1,250 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* colorbar */
+.colorbar{
+    display: flex;
+    width: 1024px;
+    height: 15px;
+    justify-content: space-between;
+}
+.colorbar-gray{
+    height: 15px;
+    width: 140px;
+    background-color: #B3ABA6;
+    top: 0;
+    margin: auto;
+
+}
+.colorbar-yellow{
+    height: 15px;
+    width: 220px;
+    background-color:#FF8F14;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.colorbar-Dblue{
+    height: 15px;
+    width: 95px;
+    background-color:#173060;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    left: 360px;
+}
+.colorbar-pink{
+    height: 15px;
+    width: 230px;
+    background-color:#F65453;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    left:455px;
+}
+
+.colorbar-red{
+    height: 15px;
+    width: 190px;
+    background-color:#CC251B;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    left:685px
+}
+.colorbar-blue{
+    height: 15px;
+    width: 150px;
+    background-color:#62A1D2;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    left:834px
+}
+
+/* header */
+/* @font-face{
+    font-family: 'Noto Sans TC', sans-serif;
+    src:url(https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet)
+} */
+
+.wrap{
+    width: 1024px;
+    margin: 0px auto;
+}
+
+
+/* 訂購資訊 */
+h1{
+    font-family: "Noto Sans TC",Bold;
+    font-size: 30px;
+    color:#173060;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+/* 訂購步驟 */
+.bar{
+    width: 664px;
+    display: flex;
+    margin-left: 170px;
+   margin-top: 20px;
+}
+.line-1{
+    width: 666px;
+    border-top: solid #62A1D2 4px;
+    margin-top: 4px;
+}
+
+.line{
+    width: 666px;
+    border-top: solid #62A1D2 4px;
+    margin-top: 4px;
+
+}
+.dot{
+    width: 30px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #62A1D2;  
+}
+
+.dot-3{
+    width: 30px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #62A1D2;  
+}
+.payment-choose {
+    display: flex;
+    /* width:200px; */
+    /* justify-content: space-between; */
+    font-size:14px ;    
+     color:#B3ABA6;
+    text-align: center;
+}
+.payment-choose h3{
+    width: 280px;
+    margin-left:135px;
+    font-family:'Roboto', sans-serif;
+}
+
+h3{
+    color: #62A1D2;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+/*完成訂購資訊*/
+
+ .completed{
+    width: 1024px;
+    height: 768px;
+    background-color: rgba(180, 172, 167, 0.2);
+    padding-top: 25px;
+    margin-top: 35px;
+}
+.completed-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 610px;
+    height: 210px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    /* margin: 0px auto; */
+    margin: 75px 207px;
+}
+
+.title{
+    width: 110px;
+    height: 33px;
+    font-size: 22px;
+    color: #62A1D2;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: bold;
+}
+
+.detail{
+    width: 372px;
+    height: 27px;
+    font-size: 18px;
+    color: #505050;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.buttom{
+    width: 180px;
+    height: 50px;
+    background-color: #FF8F14;
+    border-radius: 50px;
+}
+.home{
+    font-size: 16px;
+    color: #FFFFFF; 
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.footer{
+    width: 1024px;
+    height: 50px;
+    background-color: #173060;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 12px;
+    color:#B3ABA6;
+    padding-top: 20px;
+}
